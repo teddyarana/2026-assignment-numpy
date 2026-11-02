@@ -40,7 +40,7 @@ def max_index(X):
     i = 0
     j = 0
 
-    # TODO
+    # Done !
     if not isinstance(X, np.ndarray) :
         raise ValueError("Input must be a numpy array")
     if X.ndim != 2:
