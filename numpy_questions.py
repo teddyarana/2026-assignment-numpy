@@ -47,10 +47,10 @@ def max_index(X):
         raise ValueError("Input must be a 2D numpy array")
     max = -np.inf
     for k in range(X.shape[0]):
-        for l in range(X.shape[1]):
-            if X[k,l] >= max:
-                i,j=k,l
-                max = X[k,l]
+        for m in range(X.shape[1]):
+            if X[k,m] >= max:
+                i,j=k,m
+                max = X[k,m]
     return i, j
 
 
