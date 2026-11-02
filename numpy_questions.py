@@ -51,7 +51,6 @@ def max_index(X):
             if X[k,l] >= max:
                 i,j=k,l
                 max = X[k,l]
-    
     return i, j
 
 
@@ -79,5 +78,3 @@ def wallis_product(n_terms):
         approx *= (4*n**2)/((2*n-1)*(2*n+1))
         print(approx)
     return 2*approx
-
-wallis_product(0)
